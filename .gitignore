@@ -1,0 +1,62 @@
+# --- Secrets & Environment Variables ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+DS_Store
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# --- Terraform ---
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!example.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# --- Docker & MySQL Local Data ---
+# Ignore local database volumes/data folders mapped in docker-compose
+mysql-data/
+db-data/
+pgdata/
+data/
+*.sql
+*.sqlite3
+*.db
+
+# --- Linux & Editors ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+*.swp
+*.swo
+.vscode/
+.idea/
