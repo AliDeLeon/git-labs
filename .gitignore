@@ -5,6 +5,7 @@
 *.pem
 *.key
 DS_Store
+node_modules
 
 # --- Python ---
 __pycache__/
