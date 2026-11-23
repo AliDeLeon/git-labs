@@ -61,3 +61,6 @@ data/
 *.swo
 .vscode/
 .idea/
+
+# --- Nodes ---
+node_modules
